@@ -7,7 +7,7 @@ provider "google" {
 
 module "tf_state_bucket" {
   source  = "woernfl/gcs/gcp"
-  version = "1.0.1"
+  version = "1.0.2"
 
   gcs_bucket_name = "${var.gcs_bucket_name}"
   gcs_bucket_location = "${var.gcs_bucket_location}"
