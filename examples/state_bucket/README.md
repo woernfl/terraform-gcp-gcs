@@ -9,7 +9,6 @@ A terraform module to create GCS bucket.
 
 ## Create GCS bucket
 
-An example of how to use this module is available in the [examples/state_bucket](examples/state_bucket/) folder.
 You can use the default terraform.tfvars.example file (just need to add the path to the auth file, precise the GCP project ID and remove the .example from the file name). If you prefere to use cmd arguments, that's up to you.
 
 Initiatialize Terraform project by importing the Google Cloud provider
